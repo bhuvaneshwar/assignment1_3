@@ -1,0 +1,71 @@
+1. pwd:
+	pwd prints the pathname of the current directory in which user is working.
+	Eg.pwd
+
+2. vi:
+	vi is one of the most used text editor. 
+	vi command starts the visual mode for editing a file. 
+	Eg. vi filename - filename is the file to be edited.
+
+3. touch:
+	It is for time stamps . 
+	It updates the access and modification times of every file with respect to the system time.
+	Eg. touch filename.txt - updates the access time to current time
+
+4. MKDIR:
+	It refers to make directory.
+	It creates the directory if it is not already present.
+	Eg. mkdir cts - createss a directory named cts.
+
+5.rm:
+	rm command deletes the specified file.
+	But it does not removes the directory. 
+	Eg. rm cts.txt
+
+6.ls:
+	Used for listing contents of directory.
+	File information is displayed in sorted order.
+	Eg. ls -a
+
+7.echo:
+	It is used to display the line of text.
+	It can be used in any place to insert the text.
+	Eg.echo I belong to Cts.
+
+8.cat:
+	It refers to catenate.
+	it is used for reading the conent of specified file and to display them.
+	It also copies content to new file . 
+	Eg.cat cts.txt - displays content in terminal box.
+
+9.who:
+	It says who is currently logged into the system.
+	it displays all the users logged in.
+	Eg.who
+
+10.cd:
+	It refers to change directory.
+	It allows to change the current working directory.
+	Eg.cd cts/newproject
+
+11.date:
+	It is used to change the systems time and date and to print.
+	Eg.date
+
+12.cal:
+	It displays the calender in the terminal. 
+	cal without any options displays the current month.
+	Eg.cal -1 - displays the current month
+
+13.mv:
+	Used for moving or renaming files.
+	it moves the source file to a directory.
+	Eg.mv cts.txt destination-directory
+
+14.cp:
+	It is used to make copies of the files or directories.
+	Eg.cp original -file new-file
+
+15.which:
+	it is usefull for finding the pathnames of the files which will be executed.
+	Eg.which sh
